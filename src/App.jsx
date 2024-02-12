@@ -1,11 +1,21 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
+
 
 function App() {
   return (
+    <>
     <div className="App">
-      <h1>LAB | React WikiCountries</h1>
+      <Navbar />
     </div>
+
+    <div>
+      <HomePage />
+    </div>
+    </>
   );
+  
 }
 
 export default App;
